@@ -8,5 +8,5 @@ WORKDIR /var/www/html
 COPY . /var/www/html
 
 # Expose port 80
-EXPOSE 80
+EXPOSE 80:80
 
